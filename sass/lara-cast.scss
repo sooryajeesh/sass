@@ -1,0 +1,141 @@
+$font-stack: Helvetica, sans-serif;
+$link-color: maroon;
+$main-color: white;
+
+body {
+  background-image: url("../images/laracast_background.jpg");
+  max-height: 1000px;
+}
+
+nav {
+  h1 {
+    color: $main-color;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  h1:hover {
+    color: $link-color;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    padding: 20px;
+  }
+
+  a {
+
+    color: $main-color;
+    font-size: 20px;
+    cursor: pointer;
+    text-underline: none;
+  }
+  a:hover {
+    color: $link-color;
+    text-decoration: none;
+  }
+  .one1 {
+    position: absolute;
+    top: 89px;
+    left: 900px;
+  }
+  .one2 {
+    position: absolute;
+    top: 89px;
+    left: 1000px;
+    width: 160px;
+    height: 32px;
+    text-align: center;
+
+    background-color: $link-color;
+    color: $main-color;
+    border-radius: 6px;
+  }
+  .one2:hover {
+    color: #ffffff;
+    background-color: rgba(172, 10, 6, 0.99);
+  }
+}
+
+.row.main-pic {
+  width: 1170px;
+  height: 200px;
+  border: 2px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row.main-content {
+
+  width: 1170px;
+  height: 400px;
+  border: 2px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.main-content {
+  a {
+    color: $main-color;
+    font-size: 30px;
+    width: 200px;
+    margin-left: 342px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-color: $link-color;
+  }
+  p {
+    color: $main-color;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .content_a {
+
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: $link-color;
+
+    color: $main-color;
+    cursor: pointer;
+
+    margin-left: 507px;
+  }
+  .content_a:hover {
+    background-color: rgba(172, 10, 6, 0.99);
+  }
+
+  a:hover {
+    text-decoration: none;
+    color:$main-color
+  }
+  p:hover {
+    text-decoration: underline;
+  }
+  .already_member {
+    width: 300px;
+    height: 40px;
+
+
+    text-align: center;
+    font-size: 18px;
+    color: #A7B3C2;
+    line-height: 40px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    cursor: pointer;
+  }
+  .already_member:hover{
+    text-decoration: underline;
+  }
+}
+
+
